@@ -1,0 +1,16 @@
+.container__menu {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button__menu {
+  width: 80px;
+}
+
+nav {
+  width: 280px;
+  display: flex;
+  justify-content: space-between;
+}

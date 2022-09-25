@@ -1,0 +1,33 @@
+header {
+  display: flex;
+  width: 100%;
+
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--primary-white);
+
+  border-bottom: solid 1px var(--primary-black);
+}
+
+.title {
+  margin-left: 120px;
+  color: var(--primary-black);
+}
+
+strong {
+  color: var(--primary-color);
+}
+
+button {
+  width: 160px;
+  height: 28px;
+  background-color: var(--primary-color);
+  color: var(--button-secondary);
+  cursor: pointer;
+  border: 0px;
+  border-radius: 4px;
+}
+
+.header__btn {
+  margin-right: 120px;
+}
