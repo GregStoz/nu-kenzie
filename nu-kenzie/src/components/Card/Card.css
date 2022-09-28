@@ -70,5 +70,6 @@ h3 {
 .subtitle__type {
   color: var(--text-color);
   font-weight: 400;
+  align-self: left;
   font-size: 14px;
 }
