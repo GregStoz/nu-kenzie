@@ -11,6 +11,7 @@
 
 h2,
 span {
+  margin: auto;
   font-size: 24px;
   font-weight: bold;
 }

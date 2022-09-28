@@ -4,6 +4,7 @@
   --text-color: #343a40;
   --button-secondary: #e9ecef;
   --primary-white: #f6f6f6;
+  --green-color: #0caa81;
 }
 .darkmode {
   --primary-black: #f6f6f6;
@@ -11,6 +12,7 @@
   --text-color: #e9ecef;
   --button-secondary: #e9ecef;
   --primary-white: #212529;
+  --green-color: #0caa81;
 }
 
 body {

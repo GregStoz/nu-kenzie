@@ -36,6 +36,10 @@ const App = () => {
       value: data.value,
     };
 
+    if (data.type === "despesa") {
+      newItem.value = -data.value;
+    }
+
     setListTransactions([...listTransactions, newItem]);
 
     setData({

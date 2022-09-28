@@ -25,11 +25,11 @@
 }
 
 .in {
-  border-left: 4px solid var(--primary-color);
+  border-left: 4px solid var(--green-color);
 }
 
 .out {
-  border-left: 4px solid var(--text-color);
+  border-left: 4px solid var(--primary-color);
 }
 
 h3 {
@@ -40,7 +40,7 @@ h3 {
 .price__in {
   margin: 0;
   font-size: 16px;
-  color: var(--primary-color);
+  color: var(--green-color);
 }
 
 .price__out {
