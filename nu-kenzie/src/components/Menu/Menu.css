@@ -6,7 +6,12 @@
 }
 
 .button__menu {
+  background-color: var(--disabled);
   width: 80px;
+}
+
+.button__menu:hover {
+  background-color: var(--text-color);
 }
 
 nav {

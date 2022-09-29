@@ -2,11 +2,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 300px;
+  width: 100%;
   padding: 16px;
-  background-color: var(--primary-color);
-  color: var(--primary-white);
-  border-radius: 4px;
+  background-color: var(--primary-white);
+  color: var(--primary-color);
 }
 
 h2,
@@ -14,4 +13,21 @@ span {
   margin: auto;
   font-size: 24px;
   font-weight: bold;
+}
+
+.money__title {
+  color: var(--text-color);
+}
+
+.money__subtitle {
+  margin-left: 16px;
+  font-weight: 400;
+  font-size: 12px;
+  color: rgba(var(--text-color) 0.5);
+}
+
+.border {
+  width: 300px;
+  border: solid 1px var(--text-color);
+  padding-bottom: 16px;
 }

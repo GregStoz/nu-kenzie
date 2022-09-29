@@ -5,6 +5,7 @@
   --button-secondary: #e9ecef;
   --primary-white: #f6f6f6;
   --green-color: #0caa81;
+  --disabled: #c4c4c4;
 }
 .darkmode {
   --primary-black: #f6f6f6;
@@ -60,4 +61,8 @@ button {
   cursor: pointer;
   border: 0px;
   border-radius: 4px;
+}
+
+button:disabled {
+  background-color: var(--primary-color);
 }

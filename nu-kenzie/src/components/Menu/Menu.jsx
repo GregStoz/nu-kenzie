@@ -8,6 +8,7 @@ const Menu = ({ handleSearch, resetList, filter }) => {
           className="button__menu"
           id="filterAll"
           onClick={() => resetList()}
+          disabled={filter === "todos" ? true : false}
         >
           Todos
         </button>
@@ -15,6 +16,7 @@ const Menu = ({ handleSearch, resetList, filter }) => {
           className="button__menu"
           id="filterIn"
           onClick={() => handleSearch("entrada")}
+          disabled={filter === "entrada" ? true : false}
         >
           Entradas
         </button>
@@ -22,6 +24,7 @@ const Menu = ({ handleSearch, resetList, filter }) => {
           className="button__menu"
           id="filterOut"
           onClick={() => handleSearch("despesa")}
+          disabled={filter === "despesa" ? true : false}
         >
           Despesas
         </button>

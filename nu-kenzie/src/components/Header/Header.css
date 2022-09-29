@@ -29,5 +29,10 @@ button {
 }
 
 .header__btn {
+  background-color: var(--disabled);
   margin-right: 120px;
+}
+
+.header__btn:hover {
+  background-color: var(--text-color);
 }

@@ -12,6 +12,7 @@ const App = () => {
   const [listTransactions, setListTransactions] = useState([]);
   const [search, setSearch] = useState([]);
   const [filter, setFilter] = useState("todos");
+  
 
   const [data, setData] = useState({
     description: "",
@@ -35,7 +36,15 @@ const App = () => {
       type: data.type,
       value: data.value,
     };
+    if (data.description === "") {
+      alert("Defina uma descrição");
+      window.location.reload();
+    }
 
+    if (data.value === "" || data.value < 0) {
+      alert("Defina um valor válido (inteiro/positivo)");
+      window.location.reload();
+    }
     if (data.type === "despesa") {
       newItem.value = -data.value;
     }

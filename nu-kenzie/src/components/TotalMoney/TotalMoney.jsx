@@ -7,9 +7,12 @@ const TotalMoney = ({ list }) => {
     }, 0);
 
     return (
-      <div className="container__total margin__top">
-        <h2>Total:</h2>
-        <span>R$ {totalValue.toFixed(2).replace(".", ",")}</span>
+      <div className="border margin__top">
+        <div className="container__total">
+          <h2 className="money__title">Valor total:</h2>
+          <span>${totalValue.toFixed(2).replace(".", ",")}</span>
+        </div>
+        <span className="money__subtitle">O valor refere-se ao saldo</span>
       </div>
     );
   }

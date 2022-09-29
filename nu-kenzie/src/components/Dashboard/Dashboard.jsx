@@ -3,6 +3,7 @@ import "./Dashboard.css";
 
 const Dashboard = ({ itemList, removeItem, search, filter }) => {
   const render = filter !== "todos" ? search : itemList;
+  
 
   return (
     <div className="container__dashboard">

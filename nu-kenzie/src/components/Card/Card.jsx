@@ -26,7 +26,7 @@ const Card = ({ item, removeItem }) => {
           <h3>{item.description}</h3>
           <div className="price__align">
             <p className="price__out">
-              R$ {item.value.toFixed(2).replace(".", ",")}
+              R$ {item.value.toFixed(2).replace(".", ",").replace("-", "")}
             </p>
             <button className="remove__button" onClick={() => removeItem(item)}>
               X

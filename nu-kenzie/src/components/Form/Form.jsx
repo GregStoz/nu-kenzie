@@ -7,6 +7,7 @@ const Form = ({ handleButton, setData, data }) => {
         Descrição da transação
       </label>
       <input
+        required
         name="description"
         type="text"
         placeholder="Ex: Ingressos cinema"
@@ -19,6 +20,7 @@ const Form = ({ handleButton, setData, data }) => {
         <div className="column__fix">
           <label htmlFor="value">Valor</label>
           <input
+            required
             className="input__value"
             name="value"
             type="number"
